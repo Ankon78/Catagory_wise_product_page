@@ -1,0 +1,873 @@
+body{
+    font-family: 'Inter', sans-serif;
+  }
+.image-container{
+    display: inline-block; /* Make images inline */
+    margin-right: 10px;
+    positon: absolute;
+}
+.line{
+    display: inline-block; /* Make images inline */
+    margin-right: 10px;
+    margin-top:20px;
+    margin-bottom:20px;
+    positon: absolute;
+}
+.logo{
+    display: inline-block;
+    positon: absolute;
+}
+.horizontal1{
+    display: inline-block;
+    positon: absolute;
+    margin-top: 30px;
+    margin-left: -15px;
+    
+}
+.horizontal2{
+    display: inline-block;
+    positon: absolute;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.logo2{
+    display: inline-block;
+    positon: absolute;
+    margin-top: 45px;
+    margin-left: -60px;
+}
+#search{
+    border-color: #F86FA9 !important;
+   height: 40px;
+   width:360px;
+   font-size: 15px;
+   text-indent: 40px;
+}
+.groupImage{
+    width: 68px; 
+    height: 10px; 
+    left: 170px;
+     top: 50px;
+      position: absolute;
+}
+.form{
+    margin-top:25px;
+    
+}
+.searchCol{
+    width: 100%;
+    height: 100%; 
+    position: relative; 
+    opacity: 0.60"
+}
+.searchDiv{
+    color: rgba(0, 0, 0, 0.60);
+    font-size: 12px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+.fa-search{
+    left: 15px; 
+    top: 10px; 
+    font-size: 20px; 
+    position: absolute; 
+    color: #F40F6F;
+}
+.vr{
+    height: 20px; 
+    margin-top:30px;
+    margin-left: -50px;
+}
+.cartDiv{
+    margin-left:-70px;
+    position: absolute; 
+}
+#whatever{
+    background-color: #F40F6F ;
+    border-radius: 42px; 
+    border: 1px;
+    font-color: white;
+    padding: 10px 20px; 
+    font-size: 16px; 
+    margin-top: 18px;
+    
+}
+.fa-shopping-bag{
+    font-size: 20px; 
+    color: white;
+}
+.cart{
+    color: white;
+}
+.hr{
+    width: 100%; 
+    height: 100%; 
+    background: white; 
+    border-bottom: 0.30px rgba(0, 0, 0, 0.25) solid;
+}
+.categoriesDiv{
+    width: 100%; 
+    height: 100%;
+    margin-left:105px; 
+    border-bottom: 1px rgba(0, 0, 0, 0.25) solid;
+}
+.categoryBtn{
+    background-color: #F5CCDC; 
+    height: 44px; 
+    width: 242px;
+    margin-left:-20px;
+    border-radius: 0px;
+}
+.CategoryText{
+    color: #471D6B;
+    font-size: 12px;
+    font-family: Inter;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+.child-btn{
+    height: 25px;
+    width: 100px;
+    padding: 0px;
+}
+.fa-angle-down{
+    margin-left: 50px;
+}
+.still_on_view{
+    float: left;
+}
+ul li{
+    float:left;
+    text-decoration: none;
+    display:inline-block;
+}
+.offers{
+    width: 100%; 
+    height: 100%;
+    height:28px;
+    width:77px; 
+    background: #471D6B; 
+    border-radius: 42px;
+    padding: 0px;
+}
+.offer-text{
+    color: white; 
+    font-size: 12px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    word-wrap: break-word;
+}
+.picks{
+    width: 100%; 
+    height: 100%;
+    height:28px;
+    width:105px; 
+    background: #EB599A; 
+    border-radius: 42px;
+    padding: 0px;
+}
+.picks-text{
+    color: white; 
+    font-size: 12px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    word-wrap: break-word;
+}
+.campaign{
+    width: 100%; 
+    height: 100%;
+    height:28px;
+    width:98px; 
+    background: #913BDB; 
+    border-radius: 42px;
+    padding: 0px;
+}
+.campaign-text{
+    color: white; 
+    font-size: 12px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    word-wrap: break-word;
+}
+
+/* for banner */
+.Banner{
+    position: absolute;
+    width: 100%; 
+    height: 100%; 
+    background: linear-gradient(5deg, #FFF5F7 0%, #FFFEFE 100%);
+    /* width: 1280px;*/
+    height: 160px; 
+}
+.Banner .text{
+    margin-left:85px;
+    
+}
+.healthcare{
+    color: black;
+    font-size: 12px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+    margin-bottom:12px;
+    margin-top: 44px;
+}
+.skin-care{
+    color: rgba(0, 0, 0, 0.60);
+    font-size: 12px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+    margin-bottom:12px;
+    margin-top: 44px;
+}
+.skin{
+    color: black;
+    font-size: 30px;
+    font-family: Inter;
+    font-weight: 600;
+    line-height: 40px;
+    word-wrap: break-word;
+    margin-top: -5px;
+    
+}
+.group-images{
+
+}
+.img1{
+    width: 100%; 
+    height: 100%; 
+    transform: rotate(-26.63deg); 
+    transform-origin: 0 0; 
+    color: 3px rgba(255, 135, 166, 0.50) solid;
+    height :48px;
+    width:43px;
+    margin-top:-180px;
+}
+.img2{
+    width: 100%; 
+    height: 100%; 
+    background: rgba(255, 135, 166, 0.50) solid;
+    height :48px;
+    width:43px;
+    margin-top:0px;
+}
+.img3{
+    position: relative;
+    width: 100%; 
+    height: 100%; 
+    position: absolute; 
+    color: 1px rgba(255, 135, 166, 0.50) solid;
+    height :33px;
+    width:30px;
+    margin-top:-22px;
+    margin-left: 60px;
+}
+.img4{
+    position: relative;
+    width: 100%; 
+    height: 100%; 
+    position: absolute; 
+    color: 1px rgba(255, 135, 166, 0.50) solid;
+    width: 49px; 
+    height: 49px; 
+    margin-left: 200px;
+    top:4.93px;
+}
+.img5{
+    position: relative;
+    width: 100%; 
+    height: 100%; 
+    position: absolute; 
+    color: 1px rgba(255, 135, 166, 0.50) solid;
+    height: 45.15px;
+    width: 43.61px;
+    margin-left: 300px;
+    top:0px;
+}
+.img6{
+    position: relative;
+    width: 100%; 
+    height: 100%; 
+    position: absolute; 
+    color: 1px rgba(255, 135, 166, 0.50) solid;
+    height: 40px;
+    width: 44px;
+    margin-left: 390px;
+    top:5px;
+
+}
+.img7{
+    position: relative;
+    position: absolute; 
+    width: 100%; 
+    height: 100%; 
+    transform: rotate(-26.31deg); 
+    transform-origin: 0 0; 
+    color: rgba(255, 135, 166, 0.50);
+    height: 55px;
+    width: 58px;
+    margin-left: 480px;
+    top:15px;
+}
+.img8{
+    width: 100%;
+    height: 100%; 
+    position: relative;
+    width: 16.90px; 
+    height: 26px;  
+    position: absolute; 
+    margin-left: 600px;
+    top:40px;
+    color: 1px rgba(255, 135, 166, 0.50) solid;
+}
+.img9{
+    width: 100%;
+    height: 100%; 
+    position: relative;
+    width: 30px; 
+    height: 24.23px;  
+    position: absolute; 
+    margin-left: 670px;
+    top:0px;
+    color: 1px rgba(255, 135, 166, 0.50) solid;
+}
+.img10{
+    width: 100%;
+    height: 100%; 
+    position: relative;
+    width: 71.21px; 
+    height: 67.53px;  
+    position: absolute; 
+    margin-left: 700px;
+    top:50px;
+    color: #FF87A6;
+}
+.img11{
+    width: 100%;
+    height: 100%; 
+    position: relative;
+    width: 51.99px; 
+    height: 57.21px;  
+    position: absolute; 
+    margin-left: 800px;
+    top:0px;
+    color: #FF87A6;
+}
+.img12{
+    width: 100%;
+    height: 100%; 
+    position: relative;
+    width: 79px; 
+    height: 73px;  
+    position: absolute; 
+    margin-left: 800px;
+    top:80px;
+    color: rgba(255, 135, 166, 0.50);
+}
+.img13{
+    width: 100%;
+    height: 100%; 
+    position: relative;
+    width: 47px; 
+    height: 47px;  
+    position: absolute; 
+    margin-left: 910px;
+    top:0px;
+    color: rgba(255, 135, 166, 0.50);
+}
+.img14{
+    width: 100%; 
+    height: 100%; 
+    transform: rotate(-26.63deg); 
+    transform-origin: 0 0; 
+    color: 3px rgba(255, 135, 166, 0.50) solid;
+    width: 57px; 
+    height: 60px;  
+    position: absolute; 
+    margin-left: 905px;
+    top:80px;
+}
+.img15{
+    position: relative;
+    width: 100%; 
+    height: 100%; 
+    position: absolute; 
+    color: 1px rgba(255, 135, 166, 0.50) solid;
+    width: 28.9px; 
+    height: 27.4px; 
+    margin-left: 150px;
+    top: 120px;
+}
+.img16{
+    position: relative;
+    width: 100%; 
+    height: 100%; 
+    position: absolute; 
+    color: 1px rgba(255, 135, 166, 0.50) solid;
+    width: 62px; 
+    height: 58px; 
+    margin-left: 280px;
+    top: 100px;
+}
+.img17{
+    position: relative;
+    width: 100%; 
+    height: 100%; 
+    position: absolute; 
+    color: 1px rgba(255, 135, 166, 0.50) solid;
+    width: 70px; 
+    height: 70.01px; 
+    margin-left: 400px;
+    top: 90px;
+}
+.img18{
+    position: relative;
+    width: 100%; 
+    height: 100%; 
+    position: absolute; 
+    color: 1px rgba(255, 135, 166, 0.50) solid;
+    width: 26px; 
+    height: 40px; 
+    margin-left: 550px;
+    top: 120px;
+}
+.img19{
+    position: relative;
+    width: 100%; 
+    height: 100%; 
+    position: absolute; 
+    color: 1px rgba(255, 135, 166, 0.50) solid;
+    width: 42px; 
+    height: 42px; 
+    margin-left: 650px;
+    top: 100px;
+}
+.img20{
+    position: relative;
+    width: 100%; 
+    height: 100%; 
+    position: absolute; 
+    color: 1px rgba(255, 135, 166, 0.50) solid;
+    width: 43px; 
+    height: 42px; 
+    margin-left: 750px;
+    top: 110px;
+}
+. sort-by{
+    width: 100%; 
+    height: 100%; 
+    background: white; 
+    border: 0.50px #EF3C8B solid;
+    width:100px;
+    height:40px;
+    /* margin-right: 100px; */
+}
+.sort-by .text{
+    color: rgba(0, 0, 0, 0.80);
+    font-size: 12px;
+    font-family: Inter;
+    font-weight: 500;
+    word-wrap: break-word;
+    
+}
+.sort-by .fa-angle-down{
+    color: #471D6B ;
+     
+}
+.sort-by:hover{
+    background: #FFBFCD;
+}
+
+
+
+ /* for card */
+.categoryTxt{
+    color: black;
+    font-size: 18px;
+    font-family: Inter;
+    font-weight: 500;
+    word-wrap: break-word;
+    display: inline;
+    
+}
+.brandTxt{
+    color: black;
+    font-size: 18px;
+    font-family: Inter;
+    font-weight: 500;
+    word-wrap: break-word;
+    display: inline;
+    
+}
+.colorTxt{
+    color: black;
+    font-size: 18px;
+    font-family: Inter;
+    font-weight: 500;
+    word-wrap: break-word;
+    display: inline;
+    
+}
+.toggle-icon{
+    padding-left: 90px;
+    margin-left: 20px; 
+}
+.toggle-icon1{
+    padding-left: 100px;
+    margin-left: 45px; 
+}
+.toggle-icon2{
+    padding-left: 90px;
+    margin-left: 45px; 
+}
+.category-1{
+    color: rgba(0, 0, 0, 0.60);
+    font-size: 14px;
+    font-family: Inter;
+    font-weight: 500;
+    word-wrap: break-word;
+    
+}
+.brand{
+    margin-top: 150px;
+}
+.brand-1{
+    color: rgba(0, 0, 0, 0.60);
+    font-size: 14px;
+    font-family: Inter;
+    font-weight: 500;
+    word-wrap: break-word;
+    
+}
+
+.color{
+    margin-top: 450px;
+}
+.color-1{
+    color: rgba(0, 0, 0, 0.60);
+    font-size: 14px;
+    font-family: Inter;
+    font-weight: 500;
+    word-wrap: break-word;
+    
+}
+/* .custom-line {
+    border: none;
+    height: 2px;
+    width:220px;
+    background-color: #F40F6F ;
+    margin: 10px 0; 
+} */
+
+label[for="show-category"]{
+     
+    border-bottom:1px solid #F40F6F;
+    
+}
+label[for="show-brand"]{
+    border-bottom:1px solid #F40F6F;
+}
+label[for="show-color"]{
+    border-bottom:1px solid #F40F6F;
+}
+
+
+
+
+
+
+/* Default styles: Hide category and brand lists by default */
+.category-list,
+.brand-list,
+.color-list {
+    display: none;
+    list-style: none; /* Remove list bullets */
+    padding-left: 0; /* Remove default left padding */
+    margin-left: 0; /* Remove default left margin */
+    position: relative;
+}
+
+/* Hide the actual checkboxes */
+.show-list {
+    display: none;
+}
+
+/* Style the clickable labels to look like buttons */
+.show-list + label {
+    cursor: pointer;
+    color: black; /* Change the color to match your design */
+    text-decoration: none; /* Underline the label text */
+    text-align: left;
+    
+}
+/* Style the lists to display vertically and align them to the left */
+.show-list:checked + label + ul {
+    display: block;
+    list-style: none; /* Remove list bullets */
+    padding-left: 0; /* Remove default left padding */
+    margin-left: 0; /* Remove default left margin */
+}
+
+/* Style the list items to align them to the left */
+.show-list:checked + label + ul li {
+    text-align: left; /* Align the list items to the left */
+}
+
+input[type='checkbox'] {
+    accent-color: #F40F6F;
+   
+} 
+
+
+
+
+
+
+.card{
+    width: 100%; 
+    height: 100%; 
+    background: white; 
+    border-radius: 8px; 
+    border: 0.50px #FF87A6 solid;
+    width: 256px;
+    height:399px;
+}
+.cardImg{
+    width: 100%; 
+    height: 100%; 
+    background: linear-gradient(0deg, #D9D9D9 0%, #D9D9D9 100%); 
+    border-radius: 8px;
+    margin:12px;
+    width: 232px;
+    height:200px;
+}
+
+.corner-ribbon {
+    z-index: 100;
+    width: 200px;
+    background: rgba(244, 15, 111, 1);
+    position: absolute;
+    top: 25px;
+    left: -60px;
+    text-align: center;
+    line-height: 25px;
+    letter-spacing: 1px;
+    color: #f0f0f0;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+.cardProductName{
+    width: 100%; 
+    color: black; 
+    font-size: 16px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    line-height: 22px; 
+    word-wrap: break-word;
+    margin:12px;
+}
+.cardProductStars{
+    margin-left:12px;
+}
+/* for star rating */
+.checked {
+    color: orange;
+}
+.cardProductPrice{
+    display:inline-block;
+    color: black;
+    font-size: 18px;
+    font-family: Inter;
+    font-weight: 600;
+    word-wrap: break-word;
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 12px;
+}
+.cardProductPriceBefore{
+  
+    text-decoration: line-through;
+    font-size: 14px;
+    font-weight: 500;
+    display: inline-block;
+    margin-right: 5px;
+    color: #999999;
+}
+.cardProductDiscount{
+    color: black;
+    font-size: 12px;
+    font-family: Inter;
+    font-weight: 500;
+    word-wrap: break-word;
+    display: inline-block;
+}
+/* /* .addCounter{
+    margin-left:12px;
+} */
+
+
+
+.addButtoon {
+    width: 30%;
+    background-color: rgba(255, 191, 205, 1);
+    color: rgba(244, 15, 111, 1);
+    font-weight: 600;
+    font-size: 14px;
+    margin-right: 12px;
+    
+}
+  
+.addButtoon:hover {
+    /* background-color: rgba(145, 59, 219, 1); */
+    color: rgba(255, 191, 205, 1);
+    background-color: rgba(244, 15, 111, 1);
+}
+  
+.addCounter {
+    width: 40%;
+   margin-left:12px;
+  
+}
+ 
+
+/* footer start */
+
+.footer {
+    background: #361354;
+    color: white;
+    margin-top: 3rem;
+}
+.image-container2{
+    display: inline-block; /* Make images inline */
+    margin-right: 10px;
+    positon: absolute;
+}
+.logo-line{
+    display: inline-block; /* Make images inline */
+    margin-right: 10px;
+    margin-top:20px;
+    positon: absolute;
+}
+.footer-logo{
+    display: inline-block;
+    positon: absolute;
+}
+.horizontal3{
+    display: inline-block;
+    positon: absolute;
+    margin-top: -80px;
+    margin-left: -15px;
+    
+}
+.horizontal4{
+    display: inline-block;
+    positon: absolute;
+    margin-top: -80px;
+    margin-left: 20px;
+}
+.logo3{
+    display: inline-block;
+    positon: absolute;
+    margin-top: -65px;
+    margin-left: -60px;
+}
+  
+.text-muted {
+    color: white !important;
+}
+  
+footer h5 {
+    color: rgba(244, 15, 111, 1);
+    font-weight: 500;
+    font-size: 18px;
+    padding: 30px 0;
+}
+  
+footer a {
+    font-weight: 500;
+    font-size: 16px;
+}
+  
+footer img {
+    padding: 30px 0;
+}
+  
+footer p {
+    font-size: 16px;
+    font-weight: 400;
+}
+  
+footer h3 {
+    font-weight: 500;
+    font-size: 20px;
+    padding-bottom: 15px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+  
+footer .footerIcon {
+    color: rgba(244, 15, 111, 1);
+    background-color: white;
+    padding: 10px;
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+  
+.copyright {
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+    padding: 25px 0;
+    background: #361354;
+}
+  
+
+
+
+
+
+
+
+
+
+
+/* Media query for screens with a width from 53px to 320px */
+@media screen and (min-width: 53px) and (max-width: 320px) {
+    /* Show category and brand lists when the corresponding checkbox is checked */
+    .show-list:checked + label + ul {
+        display: block;
+    }
+
+    /* Style the list items vertically */
+    .show-list:checked + label + ul li {
+        display: block;
+    }
+    /* .brand{
+        margin-bottom: 0px;
+    }
+    .category{
+        margin-bottom: 0px;
+    } */
+}
+
+/* Media query for screens with a width from 320px to 1200px */
+@media screen and (min-width: 320px) and (max-width: 1200px) {
+    /* Show category and brand lists */
+    .category-list,
+    .brand-list,
+    .color-list {
+        display: block;
+
+    }
+}  
+
+
+
+
+
+
